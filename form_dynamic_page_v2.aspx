@@ -14,9 +14,6 @@
 <body>
     <form runat="server">
         <style>
-            .msgclass {
-            }
-
                 .msgclass input[type="text"] {
                     font-weight: bold;
                     color: mediumvioletred;
