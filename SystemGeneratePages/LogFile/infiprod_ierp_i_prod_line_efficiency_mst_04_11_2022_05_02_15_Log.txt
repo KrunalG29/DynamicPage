@@ -1,0 +1,160 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_prod_line_efficiency_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Operation successfully completed on 04/11/2022 05:02:15
+   Stored Procedure: i_prod_line_efficiency_mst_insert
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 04/11/2022 05:02:15
+   File: PROP_prod_line_efficiency_mst
+
+#Create DB Function File: Operation successfully completed on 04/11/2022 05:02:15
+   File: db_prod_line_efficiency_mst
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: lem_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: lem_shift
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: lem_total_prod_pcs
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: lem_total_line_speed
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: lem_total_prod_box
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: lem_total_oper_time
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: lem_cip_down_time
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: lem_utility_down_time
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: lem_other_down_time
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: lem_line_efficiency
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: lem_overall_line_efficiency
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

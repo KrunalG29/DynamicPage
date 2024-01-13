@@ -1,0 +1,69 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_sales_inventory_kit_mst
+
+Menu Name:Manage_Kit_Type_Master
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File: Operation successfully completed on 23/11/2023 12:30:08
+   File: form_sales_inventory_kit.aspx
+
+#Create Listing Page File: Operation successfully completed on 23/11/2023 12:30:08
+   File: list_sales_inventory_kit.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: ikm_name
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: ikm_kit_type_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

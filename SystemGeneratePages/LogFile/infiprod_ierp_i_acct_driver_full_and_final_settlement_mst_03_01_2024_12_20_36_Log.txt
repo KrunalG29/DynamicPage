@@ -1,0 +1,104 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_acct_driver_full_and_final_settlement_mst
+
+Menu Name:
+
+Host IP:127.0.0.1
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 03/01/2024 12:20:36
+   File: PROP_acct_driver_full_and_final_settlement_mst
+
+#Create DB Function File: Operation successfully completed on 03/01/2024 12:20:36
+   File: db_acct_driver_full_and_final_settlement_mst
+
+#Create Form Page File: Operation successfully completed on 03/01/2024 12:20:36
+   File: form_acct_driver_full_and_final_settlement.aspx
+
+#Create Listing Page File: Operation successfully completed on 03/01/2024 12:20:36
+   File: list_acct_driver_full_and_final_settlement.aspx
+
+#Create Web Method Function File: Not Selected.
+
+#Create Log Table Detail: Not Selected.
+
+#Create Log Detail Table Synonym: Not Selected.
+
+#Create Trigger Detail: Not Selected.
+
+#Create Procedure for Insert Detail: Not Selected.
+
+#Create Procedure for Delete Detail: Not Selected.
+
+#Create Procedure for Update Detail: Not Selected.
+
+#Create Procedure for select by id Detail: Not Selected.
+
+#Create PROPERTY File Detail: Error on 03/01/2024 12:20:36
+   Error: Object reference not set to an instance of an object.
+
+#Create DB Function File Detail: Error on 03/01/2024 12:20:36
+   Error: Object reference not set to an instance of an object.
+
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: dfs_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: dfs_driver_full_name
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: dfs_driver_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

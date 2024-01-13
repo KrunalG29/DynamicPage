@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iipl.erph", "iipl.erph.csproj", "{16677B07-3C0D-4990-B219-6EBC645C490C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16677B07-3C0D-4990-B219-6EBC645C490C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16677B07-3C0D-4990-B219-6EBC645C490C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16677B07-3C0D-4990-B219-6EBC645C490C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16677B07-3C0D-4990-B219-6EBC645C490C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69EE574C-4EC2-4A2D-B2B3-64038BA741D6}
+	EndGlobalSection
+EndGlobal

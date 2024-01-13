@@ -1,0 +1,478 @@
+#############################Log##############################
+
+Project:URP
+
+Table:Institute_Master
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Operation successfully completed on 29/06/2023 12:08:21
+   File: db_Institute_Master
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: im_id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: im_code
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: im_menubar_title
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: im_prefix
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: im_full_name
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: im_short_name
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: im_domain_name
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: im_web_title_1
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: im_web_title_2
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: im_web_title_3
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: im_director_id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: im_web_slogun
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: im_logo
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: im_favicon_logo
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: im_other_website_link
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: im_synch_db_name
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: im_synch_db_status
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: im_is_delete
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 19
+       Field Name: im_is_status
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 20
+       Field Name: im_created_by
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 21
+       Field Name: im_created_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 22
+       Field Name: im_is_created_ip
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 23
+       Field Name: im_deleted_by
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 24
+       Field Name: im_deleted_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 25
+       Field Name: im_deleted_ip
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 26
+       Field Name: im_modify_by
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 27
+       Field Name: im_modify_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 28
+       Field Name: im_modify_ip
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 29
+       Field Name: im_is_att_log
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 30
+       Field Name: im_lecture_switching
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 31
+       Field Name: im_css_style_name
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 32
+       Field Name: im_exam_db_name
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 33
+       Field Name: im_account_db_name
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 34
+       Field Name: im_company_id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 35
+       Field Name: im_master_page_name
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 36
+       Field Name: im_ierp_domain_name
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 37
+       Field Name: im_cbsc_domain_name
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 38
+       Field Name: im_yearly_domain_name
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 39
+       Field Name: im_APK_name
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 40
+       Field Name: im_year_wise_DB_Backup_Path
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 41
+       Field Name: im_copyright
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 42
+       Field Name: im_college_master_page_name
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 43
+       Field Name: im_helpline_no
+       Field Data Type: String (200)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

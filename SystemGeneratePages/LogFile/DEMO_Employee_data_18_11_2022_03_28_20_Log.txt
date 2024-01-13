@@ -1,0 +1,69 @@
+#############################Log##############################
+
+Project:DEMO
+
+Table:Employee_data
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Operation successfully completed on 18/11/2022 03:28:20
+   Stored Procedure: Employee_data_insert
+
+#Create Procedure for Delete: Operation successfully completed on 18/11/2022 03:28:20
+   Stored Procedure: Employee_data_delete
+
+#Create Procedure for Update: Operation successfully completed on 18/11/2022 03:28:20
+   Stored Procedure: Employee_data_update
+
+#Create Procedure for select by id: Error on 18/11/2022 03:28:20
+   Error: Incorrect syntax near the keyword 'with'.
+
+#Create Procedure for Select all: Error on 18/11/2022 03:28:20
+   Error: Incorrect syntax near the keyword 'with'.
+
+#Create Procedure for select: Operation successfully completed on 18/11/2022 03:28:20
+   Stored Procedure: Employee_data_select
+
+#Create Procedure for log select: Operation successfully completed on 18/11/2022 03:28:20
+   Stored Procedure: Employee_data_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 18/11/2022 03:28:20
+   Stored Procedure: Employee_data_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 18/11/2022 03:28:20
+   File: PROP_Employee_data
+
+#Create DB Function File: Operation successfully completed on 18/11/2022 03:28:20
+   File: db_Employee_data
+
+#Create Form Page File: Operation successfully completed on 18/11/2022 03:28:20
+   File: form_Employee_data.aspx
+
+#Create Listing Page File: Operation successfully completed on 18/11/2022 03:28:20
+   File: list_Employee_data.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: Name
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

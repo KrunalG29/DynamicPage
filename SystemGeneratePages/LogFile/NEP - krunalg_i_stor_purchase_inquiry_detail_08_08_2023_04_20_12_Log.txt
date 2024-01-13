@@ -1,0 +1,199 @@
+#############################Log##############################
+
+Project:NEP - krunalg
+
+Table:i_stor_purchase_inquiry_detail
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 08/08/2023 04:20:12
+   Database: CMS_EXAM_NEW_LOG
+   Table: i_stor_purchase_inquiry_detail_log
+
+#Create Log Table Synonym: Operation successfully completed on 08/08/2023 04:20:12
+   Synonym: i_stor_purchase_inquiry_detail_log
+
+#Create Trigger: Operation successfully completed on 08/08/2023 04:20:12
+   Trigger: trg_stor_purchase_inquiry_detail
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: spid_spim_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: spid_item_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: spid_hsn_code
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: spid_itm_print_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: spid_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: spid_exp_date
+       Field Data Type: DateTime (3)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 10
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: spid_detail_speci
+       Field Data Type: String (3500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 12
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: spid_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 14
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: spid_stock_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 16
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: spid_st_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 18
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: spid_uom_auto_convay
+       Field Data Type:  (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 20
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: spid_lotno
+       Field Data Type: String (200)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 22
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: spid_item_ori_file
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 24
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: spid_item_sys_file
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 26
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: spid_item_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 28
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

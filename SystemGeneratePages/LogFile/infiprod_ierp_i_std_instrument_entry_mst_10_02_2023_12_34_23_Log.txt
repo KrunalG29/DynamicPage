@@ -1,0 +1,243 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_std_instrument_entry_mst
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 10/02/2023 12:34:21
+   Database: infilog_ierp
+   Table: i_std_instrument_entry_mst_log
+
+#Create Log Table Synonym: Operation successfully completed on 10/02/2023 12:34:21
+   Synonym: i_std_instrument_entry_mst_log
+
+#Create Trigger: Operation successfully completed on 10/02/2023 12:34:21
+   Trigger: trg_std_instrument_entry_mst
+
+#Create Procedure for Insert: Operation successfully completed on 10/02/2023 12:34:21
+   Stored Procedure: i_std_instrument_entry_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 10/02/2023 12:34:21
+   Stored Procedure: i_std_instrument_entry_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 10/02/2023 12:34:22
+   Stored Procedure: i_std_instrument_entry_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 10/02/2023 12:34:22
+   Stored Procedure: i_std_instrument_entry_mst_selectby_id
+
+#Create Procedure for Select all: Operation successfully completed on 10/02/2023 12:34:22
+   Stored Procedure: i_std_instrument_entry_mst_select_all
+
+#Create Procedure for select: Operation successfully completed on 10/02/2023 12:34:22
+   Stored Procedure: i_std_instrument_entry_mst_select
+
+#Create Procedure for log select: Operation successfully completed on 10/02/2023 12:34:23
+   Stored Procedure: i_std_instrument_entry_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 10/02/2023 12:34:23
+   Stored Procedure: i_std_instrument_entry_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 10/02/2023 12:34:23
+   File: PROP_std_instrument_entry_mst
+
+#Create DB Function File: Operation successfully completed on 10/02/2023 12:34:23
+   File: db_std_instrument_entry_mst
+
+#Create Form Page File: Operation successfully completed on 10/02/2023 12:34:23
+   File: form_std_instrument_entry.aspx
+
+#Create Listing Page File: Operation successfully completed on 10/02/2023 12:34:23
+   File: list_std_instrument_entry.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: siem_dept_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Department
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: siem_instr_name
+       Field Data Type: String (600)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Instrument Name
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: siem_gf_no
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: GF No.
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: siem_instr_make
+       Field Data Type: String (600)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Instrument Make
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: siem_model_no
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Model No.
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: siem_instr_sr_no
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Inst. Sr no.
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: siem_instr_pur_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Inst. Pur. Dtae
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: siem_avg_lifecycle
+       Field Data Type: String (600)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Avg. Lifecycle
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: siem_calib_req
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Calibration Req.
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: siem_instr_calib_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Inst. Cali. Date
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: siem_calib_frequency
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Cali. Frequency
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: siem_next_calib_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Next Calibration 
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: siem_range
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Range
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: siem_LC
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: L.C.
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: siem_size
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Size
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: siem_class
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Class
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: siem_go
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: GO
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: siem_no_go
+       Field Data Type: String (255)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: NO GO
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

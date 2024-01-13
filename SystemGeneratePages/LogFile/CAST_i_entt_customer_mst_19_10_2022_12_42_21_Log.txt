@@ -1,0 +1,86 @@
+#############################Log##############################
+
+Project:CAST
+
+Table:i_entt_customer_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Operation successfully completed on 19/10/2022 12:42:20
+   Stored Procedure: i_entt_customer_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 19/10/2022 12:42:20
+   Stored Procedure: i_entt_customer_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 19/10/2022 12:42:21
+   Stored Procedure: i_entt_customer_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 19/10/2022 12:42:21
+   Stored Procedure: i_entt_customer_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 19/10/2022 12:42:21
+   Stored Procedure: i_entt_customer_mst_select
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 19/10/2022 12:42:21
+   File: PROP_entt_customer_mst
+
+#Create DB Function File: Operation successfully completed on 19/10/2022 12:42:21
+   File: db_entt_customer_mst
+
+#Create Form Page File: Operation successfully completed on 19/10/2022 12:42:21
+   File: form_entt_customer.aspx
+
+#Create Listing Page File: Operation successfully completed on 19/10/2022 12:42:21
+   File: list_entt_customer.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: cus_code
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: cus_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: cus_mobile_no
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

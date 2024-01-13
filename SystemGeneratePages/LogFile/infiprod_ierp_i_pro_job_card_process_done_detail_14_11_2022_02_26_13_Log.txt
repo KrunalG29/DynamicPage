@@ -1,0 +1,147 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_pro_job_card_process_done_detail
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 14/11/2022 02:26:13
+   Database: infilog_ierp
+   Table: i_pro_job_card_process_done_detail_log
+
+#Create Log Table Synonym: Operation successfully completed on 14/11/2022 02:26:13
+   Synonym: i_pro_job_card_process_done_detail_log
+
+#Create Trigger: Operation successfully completed on 14/11/2022 02:26:13
+   Trigger: trg_pro_job_card_process_done_detail
+
+#Create Procedure for Insert: Operation successfully completed on 14/11/2022 02:26:13
+   Stored Procedure: i_pro_job_card_process_done_detail_insert
+
+#Create Procedure for Delete: Operation successfully completed on 14/11/2022 02:26:13
+   Stored Procedure: i_pro_job_card_process_done_detail_delete
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 14/11/2022 02:26:13
+   File: PROP_pro_job_card_process_done_detail
+
+#Create DB Function File: Operation successfully completed on 14/11/2022 02:26:13
+   File: db_pro_job_card_process_done_detail
+
+#Create Form Page File: Operation successfully completed on 14/11/2022 02:26:13
+   File: form_pro_job_card_process_done.aspx
+
+#Create Listing Page File: Operation successfully completed on 14/11/2022 02:26:13
+   File: list_pro_job_card_process_done.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: jcdd_jcdm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: jcdd_complain_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: jcdd_mechanic
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: jcdd_service_eng
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: jcdd_itm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: jcdd_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: jcdd_issued_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: jcdd_prev_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: jcdd_cur_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

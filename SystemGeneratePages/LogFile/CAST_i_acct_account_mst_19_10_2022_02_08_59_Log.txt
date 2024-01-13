@@ -1,0 +1,112 @@
+#############################Log##############################
+
+Project:CAST
+
+Table:i_acct_account_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Operation successfully completed on 19/10/2022 02:08:59
+   Stored Procedure: i_acct_account_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 19/10/2022 02:08:59
+   Stored Procedure: i_acct_account_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 19/10/2022 02:08:59
+   Stored Procedure: i_acct_account_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 19/10/2022 02:08:59
+   Stored Procedure: i_acct_account_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 19/10/2022 02:08:59
+   Stored Procedure: i_acct_account_mst_select
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: acc_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: acc_description
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: acc_ref_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: acc_ref_type
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: acc_print_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: acc_base_currency
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

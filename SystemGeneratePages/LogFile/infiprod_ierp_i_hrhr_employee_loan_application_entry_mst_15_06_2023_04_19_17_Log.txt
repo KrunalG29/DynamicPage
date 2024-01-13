@@ -1,0 +1,282 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_hrhr_employee_loan_application_entry_mst
+
+Menu Name:Manage_emp_loan_application_entry
+
+
+#Create Log Table: Operation successfully completed on 15/06/2023 04:19:16
+   Database: infilog_ierp
+   Table: i_hrhr_employee_loan_application_entry_mst_log
+
+#Create Log Table Synonym: Operation successfully completed on 15/06/2023 04:19:16
+   Synonym: i_hrhr_employee_loan_application_entry_mst_log
+
+#Create Trigger: Operation successfully completed on 15/06/2023 04:19:16
+   Trigger: trg_hrhr_employee_loan_application_entry_mst
+
+#Create Procedure for Insert: Operation successfully completed on 15/06/2023 04:19:16
+   Stored Procedure: i_hrhr_employee_loan_application_entry_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 15/06/2023 04:19:16
+   Stored Procedure: i_hrhr_employee_loan_application_entry_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 15/06/2023 04:19:16
+   Stored Procedure: i_hrhr_employee_loan_application_entry_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 15/06/2023 04:19:16
+   Stored Procedure: i_hrhr_employee_loan_application_entry_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 15/06/2023 04:19:16
+   Stored Procedure: i_hrhr_employee_loan_application_entry_mst_select
+
+#Create Procedure for log select: Operation successfully completed on 15/06/2023 04:19:17
+   Stored Procedure: i_hrhr_employee_loan_application_entry_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 15/06/2023 04:19:17
+   Stored Procedure: i_hrhr_employee_loan_application_entry_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 15/06/2023 04:19:17
+   File: PROP_hrhr_employee_loan_application_entry_mst
+
+#Create DB Function File: Operation successfully completed on 15/06/2023 04:19:17
+   File: db_hrhr_employee_loan_application_entry_mst
+
+#Create Form Page File: Operation successfully completed on 15/06/2023 04:19:17
+   File: form_hrhr_employee_loan_application_entry.aspx
+
+#Create Listing Page File: Operation successfully completed on 15/06/2023 04:19:17
+   File: list_hrhr_employee_loan_application_entry.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: ela_loan_req_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Loan Req Date
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: ela_date_of_confirm
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Date Of Confirmation
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: ela_emp_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Employee Name
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: ela_eligibilty_of_emp
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Eligibility of Employee 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: ela_applied_loan_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Applied for loan amount
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: ela_no_of_installment
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: No of Installment
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: ela_installment_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Instalment Amt.
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: ela_reason
+       Field Data Type: String (600)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Reason
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: ela_last_loan_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Last Loan Date
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: ela_last_loan_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Last Loan Amt.
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: ela_loan_period
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Loan Period
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: ela_last_loan_pend_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Last Loan Pend. Amt.
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: ela_from_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: From Date
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: ela_to_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: To Date
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: ela_total_days
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Total Days
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: ela_working_days
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Working Days
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: ela_absent_days_with_leave
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Absent Days (with leave)
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: ela_absent_days_without_leave
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Absent Days (w/o leave)
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 19
+       Field Name: ela_sick_leave
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Sick Leave
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 20
+       Field Name: ela_accident_esi_leave
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Accident / ESI Leave
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 21
+       Field Name: ela_present_days
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Present Days
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 22
+       Field Name: ela_tot_absent
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Total Absent
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

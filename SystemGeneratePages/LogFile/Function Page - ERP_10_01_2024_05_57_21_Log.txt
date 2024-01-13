@@ -1,0 +1,25 @@
+#############################Log##############################
+
+Host IP:127.0.0.1
+
+Type:Function Page - ERP
+
+Page Name:
+
+Function Type iERP:DataTable
+
+Function Name iERP:
+
+SP String iERP:ALTER PROCEDURE [dbo].[i_sale_sales_order_item_schedule_qty_details_selectby_id]
+@id bigint,
+@comp_id bigint
+
+Function Type URP:Select Type
+
+Function Name URP:
+
+SP String URP:
+
+Excel SP String:
+
+##############################################################

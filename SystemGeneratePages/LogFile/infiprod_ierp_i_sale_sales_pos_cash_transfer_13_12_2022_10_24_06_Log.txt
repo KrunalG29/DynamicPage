@@ -1,0 +1,92 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_sale_sales_pos_cash_transfer
+
+Menu Name:
+
+
+#Create Log Table: Error on 13/12/2022 10:24:05
+   Error: There is already an object named 'i_sale_sales_pos_cash_transfer_log' in the database.
+
+#Create Log Table Synonym: Operation successfully completed on 13/12/2022 10:24:05
+   Synonym: i_sale_sales_pos_cash_transfer_log
+
+#Create Trigger: Operation successfully completed on 13/12/2022 10:24:05
+   Trigger: trg_sale_sales_pos_cash_transfer
+
+#Create Procedure for Insert: Operation successfully completed on 13/12/2022 10:24:05
+   Stored Procedure: i_sale_sales_pos_cash_transfer_insert
+
+#Create Procedure for Delete: Operation successfully completed on 13/12/2022 10:24:05
+   Stored Procedure: i_sale_sales_pos_cash_transfer_delete
+
+#Create Procedure for Update: Operation successfully completed on 13/12/2022 10:24:05
+   Stored Procedure: i_sale_sales_pos_cash_transfer_update
+
+#Create Procedure for select by id: Operation successfully completed on 13/12/2022 10:24:06
+   Stored Procedure: i_sale_sales_pos_cash_transfer_selectby_id
+
+#Create Procedure for Select all: Operation successfully completed on 13/12/2022 10:24:06
+   Stored Procedure: i_sale_sales_pos_cash_transfer_select_all
+
+#Create Procedure for select: Operation successfully completed on 13/12/2022 10:24:06
+   Stored Procedure: i_sale_sales_pos_cash_transfer_select
+
+#Create Procedure for log select: Operation successfully completed on 13/12/2022 10:24:06
+   Stored Procedure: i_sale_sales_pos_cash_transfer_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 13/12/2022 10:24:06
+   Stored Procedure: i_sale_sales_pos_cash_transfer_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 13/12/2022 10:24:06
+   File: PROP_sale_sales_pos_cash_transfer
+
+#Create DB Function File: Operation successfully completed on 13/12/2022 10:24:06
+   File: db_sale_sales_pos_cash_transfer
+
+#Create Form Page File: Operation successfully completed on 13/12/2022 10:24:06
+   File: form_sale_sales_pos_cash_transfer.aspx
+
+#Create Listing Page File: Operation successfully completed on 13/12/2022 10:24:06
+   File: list_sale_sales_pos_cash_transfer.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: pct_shop_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: pct_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: pct_amount
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

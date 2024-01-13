@@ -1,0 +1,108 @@
+#############################Log##############################
+
+Project:DEMO
+
+Table:i_exam_paper_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Operation successfully completed on 08/11/2022 05:10:50
+   Stored Procedure: i_exam_paper_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 08/11/2022 05:10:50
+   Stored Procedure: i_exam_paper_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 08/11/2022 05:10:50
+   Stored Procedure: i_exam_paper_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 08/11/2022 05:10:50
+   Stored Procedure: i_exam_paper_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 08/11/2022 05:10:50
+   Stored Procedure: i_exam_paper_mst_select
+
+#Create Procedure for log select: Operation successfully completed on 08/11/2022 05:10:50
+   Stored Procedure: i_exam_paper_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 08/11/2022 05:10:50
+   Stored Procedure: i_exam_paper_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 08/11/2022 05:10:50
+   File: PROP_exam_paper_mst
+
+#Create DB Function File: Operation successfully completed on 08/11/2022 05:10:50
+   File: db_exam_paper_mst
+
+#Create Form Page File: Operation successfully completed on 08/11/2022 05:10:50
+   File: form_exam_paper.aspx
+
+#Create Listing Page File: Operation successfully completed on 08/11/2022 05:10:50
+   File: list_exam_paper.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: expm_course_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: expm_sem_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: expm_subm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: expm_esession_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: expm_etime_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

@@ -1,0 +1,99 @@
+#############################Log##############################
+
+Project:URP
+
+Table:i_ctlg_item_wise_hsn_detail
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 04/08/2023 11:56:56
+   Database: CMS_EXAM_NEW_LOG
+   Table: i_ctlg_item_wise_hsn_detail_log
+
+#Create Log Table Synonym: Operation successfully completed on 04/08/2023 11:56:56
+   Synonym: i_ctlg_item_wise_hsn_detail_log
+
+#Create Trigger: Operation successfully completed on 04/08/2023 11:56:56
+   Trigger: trg_ctlg_item_wise_hsn_detail
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: iwhsn_itm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: iwhsn_hsn_code
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: iwhsn_hsn_gst_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: iwhsn_hsn_gst_per
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: iwhsn_effective_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

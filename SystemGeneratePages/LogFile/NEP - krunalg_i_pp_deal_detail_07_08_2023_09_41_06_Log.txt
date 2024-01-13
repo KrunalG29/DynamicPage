@@ -1,0 +1,329 @@
+#############################Log##############################
+
+Project:NEP - krunalg
+
+Table:i_pp_deal_detail
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 07/08/2023 09:41:06
+   Database: CMS_EXAM_NEW_LOG
+   Table: i_pp_deal_detail_log
+
+#Create Log Table Synonym: Operation successfully completed on 07/08/2023 09:41:06
+   Synonym: i_pp_deal_detail_log
+
+#Create Trigger: Operation successfully completed on 07/08/2023 09:41:06
+   Trigger: trg_pp_deal_detail
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: dd_dm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: dd_item_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: dd_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: dd_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: dd_basic_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: dd_price
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 10
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: dd_disc_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 12
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: dd_disc_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 14
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: dd_cgst_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 16
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: dd_cgst_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 18
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: dd_sgst_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 20
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: dd_sgst_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 22
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: dd_igst_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 24
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: dd_igst_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 26
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: dd_taxable_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 28
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: dd_description
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 30
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: dd_item_print_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 32
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: dd_hsn_code
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 34
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 19
+       Field Name: dd_interest_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 36
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 20
+       Field Name: dd_interest_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 38
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 21
+       Field Name: dd_cash_discount_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 40
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 22
+       Field Name: dd_rt_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 42
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 23
+       Field Name: dd_rt_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 44
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 24
+       Field Name: dd_ordered_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 46
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 25
+       Field Name: dd_rsd_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 48
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 26
+       Field Name: dd_kg_per_bag
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 50
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 27
+       Field Name: dd_vend_commision_amt_kg
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 52
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 28
+       Field Name: dd_itm_unique_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 54
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

@@ -1,0 +1,326 @@
+#############################Log##############################
+
+Project:VRL
+
+Table:Exam_Time_Table
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 05/07/2023 12:57:10
+   Database: infilog_VRL
+   Table: Exam_Time_Table_log
+
+#Create Log Table Synonym: Operation successfully completed on 05/07/2023 12:57:10
+   Synonym: Exam_Time_Table_log
+
+#Create Trigger: Error on 05/07/2023 12:57:10
+   Error: Invalid column name 'modify_dnt'.
+
+#Create Procedure for Insert: Error on 05/07/2023 12:57:10
+   Error: 
+
+#Create Procedure for Delete: Error on 05/07/2023 12:57:10
+   Error: 
+
+#Create Procedure for select by id: Error on 05/07/2023 12:57:10
+   Error: Incorrect syntax near the keyword 'END'.
+
+#Create Procedure for select: Operation successfully completed on 05/07/2023 12:57:10
+   Stored Procedure: Exam_Time_Table_select
+
+#Create Procedure for log select: Error on 05/07/2023 12:57:11
+   Error: 	
+CREATE PROCEDURE [dbo].[Exam_Time_Table_log_select]
+@ bigint,
+@institue_id bigint
+AS
+BEGIN
+
+SELECT 
+case ett.operation_type when 1 then 'Insert' when 2 then 'Update' when 3 then 'Delete' else '' end as operation_type, 
+ett.operation_dnt,
+ett.ett_Component_Id, dbo.GETEMPUSERNAMEBYCONFIG(ett.ett_Created_By) AS ett_Created_By, ett.ett_Created_Date, ett.ett_Created_Ip, dbo.GETEMPUSERNAMEBYCONFIG(ett.ett_Deleted_By) AS ett_Deleted_By, ett.ett_Deleted_Date, ett.ett_Deleted_Ip, ett.ett_Exam_Date, ett.ett_Exam_End_Time, ett.ett_Exam_Id, ett.ett_Exam_Start_Time, ett.ett_Faculty_Id, ett.ett_Gap_Day, ett.ett_Id, ett.ett_Institute_Id, ett.ett_Is_Delete, ett.ett_Is_Status, dbo.GETEMPUSERNAMEBYCONFIG(ett.ett_Modify_By) AS ett_Modify_By, ett.ett_Modify_Date, ett.ett_Modify_Ip, ett.ett_Program_Id, ett.ett_Semester_Id, ett.ett_Seq_No, ett.ett_Session_Id, ett.ett_Sub_Type_Id
+FROM Exam_Time_Table_log ett with(nolock)
+where  ett.=@
+AND ett.= case when @=0 then ett. else @ end 
+and isnull(ett.ett_Is_Delete,0)=0
+order by ett.operation_dnt desc
+
+
+
+END
+
+
+#Create PROPERTY File: Operation successfully completed on 05/07/2023 12:57:11
+   File: PROP_Exam_Time_Table
+
+#Create DB Function File: Error on 05/07/2023 12:57:11
+   Error: Input string was not in a correct format.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: ett_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: ett_Institute_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: ett_Faculty_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: ett_Program_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: ett_Semester_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: ett_Exam_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: ett_Gap_Day
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: ett_Seq_No
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: ett_Component_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: ett_Session_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: ett_Exam_Date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: ett_Exam_Start_Time
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: ett_Exam_End_Time
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: ett_Sub_Type_Id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: ett_Is_Status
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: ett_Is_Delete
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: ett_Created_By
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: ett_Created_Date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 19
+       Field Name: ett_Created_Ip
+       Field Data Type: String (80)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 20
+       Field Name: ett_Modify_By
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 21
+       Field Name: ett_Modify_Date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 22
+       Field Name: ett_Modify_Ip
+       Field Data Type: String (80)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 23
+       Field Name: ett_Deleted_By
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 24
+       Field Name: ett_Deleted_Date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 25
+       Field Name: ett_Deleted_Ip
+       Field Data Type: String (80)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

@@ -1,0 +1,82 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_pro_vehicle_wise_schedule_complaint
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 07/12/2022 04:00:41
+   Database: infilog_ierp
+   Table: i_pro_vehicle_wise_schedule_complaint_log
+
+#Create Log Table Synonym: Operation successfully completed on 07/12/2022 04:00:41
+   Synonym: i_pro_vehicle_wise_schedule_complaint_log
+
+#Create Trigger: Operation successfully completed on 07/12/2022 04:00:41
+   Trigger: trg_pro_vehicle_wise_schedule_complaint
+
+#Create Procedure for Insert: Operation successfully completed on 07/12/2022 04:00:41
+   Stored Procedure: i_pro_vehicle_wise_schedule_complaint_insert
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: vsc_name
+       Field Data Type: String (129)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: vsc_veh_type
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: vsc_is_from_schedule
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

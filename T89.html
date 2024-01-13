@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Marquee</title>
+    <style>
+        .marquee-container {
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(200%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <p>Your marquee content goes here. Repeat it as much as needed to fill the space.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

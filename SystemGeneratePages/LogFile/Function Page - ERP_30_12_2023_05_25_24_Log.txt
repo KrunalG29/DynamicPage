@@ -1,0 +1,26 @@
+#############################Log##############################
+
+Host IP:127.0.0.1
+
+Type:Function Page - ERP
+
+Page Name:
+
+Function Type iERP:Return Object
+
+Function Name iERP:Get_sale_sales_order_mst
+
+SP String iERP:ALTER procedure [dbo].[i_get_sale_temporary_item_location_details_selectby_ref_id]
+@ref_type bigint,--1-production,2-purchase,3-sales
+@ref_id bigint,--dispatch order
+@comp_id bigint
+
+Function Type URP:Select Type
+
+Function Name URP:
+
+SP String URP:
+
+Excel SP String:
+
+##############################################################

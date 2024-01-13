@@ -1,0 +1,131 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_prod_assembly_in_vehicle_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Operation successfully completed on 26/12/2022 09:23:16
+   Synonym: i_prod_assembly_in_vehicle_mst_log
+
+#Create Trigger: Operation successfully completed on 26/12/2022 09:23:16
+   Trigger: trg_prod_assembly_in_vehicle_mst
+
+#Create Procedure for Insert: Error on 26/12/2022 09:23:16
+   Error: There is already an object named 'i_prod_assembly_in_vehicle_mst_insert' in the database.
+
+#Create Procedure for Delete: Operation successfully completed on 26/12/2022 09:23:16
+   Stored Procedure: i_prod_assembly_in_vehicle_mst_delete
+
+#Create Procedure for Update: Error on 26/12/2022 09:23:16
+   Error: There is already an object named 'i_prod_assembly_in_vehicle_mst_update' in the database.
+
+#Create Procedure for select by id: Operation successfully completed on 26/12/2022 09:23:17
+   Stored Procedure: i_prod_assembly_in_vehicle_mst_selectby_id
+
+#Create Procedure for Select all: Operation successfully completed on 26/12/2022 09:23:17
+   Stored Procedure: i_prod_assembly_in_vehicle_mst_select_all
+
+#Create Procedure for select: Operation successfully completed on 26/12/2022 09:23:17
+   Stored Procedure: i_prod_assembly_in_vehicle_mst_select
+
+#Create Procedure for log select: Operation successfully completed on 26/12/2022 09:23:17
+   Stored Procedure: i_prod_assembly_in_vehicle_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 26/12/2022 09:23:17
+   Stored Procedure: i_prod_assembly_in_vehicle_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 26/12/2022 09:23:17
+   File: PROP_prod_assembly_in_vehicle_mst
+
+#Create DB Function File: Operation successfully completed on 26/12/2022 09:23:17
+   File: db_prod_assembly_in_vehicle_mst
+
+#Create Form Page File: Operation successfully completed on 26/12/2022 09:23:17
+   File: form_prod_assembly_in_vehicle.aspx
+
+#Create Listing Page File: Operation successfully completed on 26/12/2022 09:23:17
+   File: list_prod_assembly_in_vehicle.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: avm_vehicle_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: avm_vehicle_no
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: avm_itm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: avm_am_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: avm_loc_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: avm_cup_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: avm_cell_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

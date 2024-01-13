@@ -1,0 +1,98 @@
+#############################Log##############################
+
+Project:URP
+
+Table:hsn_code_wise_gst_slab_details
+
+Menu Name:
+
+
+#Create Log Table: Error on 04/08/2023 12:57:14
+   Error: There is already an object named 'hsn_code_wise_gst_slab_details_log' in the database.
+
+#Create Log Table Synonym: Error on 04/08/2023 12:57:14
+   Error: There is already an object named 'hsn_code_wise_gst_slab_details_log' in the database.
+
+#Create Trigger: Error on 04/08/2023 12:57:14
+   Error: There is already an object named 'trg_hsn_code_wise_gst_slab_details' in the database.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: hsn_gsm_slab_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: hsn_code
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: hsn_add_cess_apply
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: hsn_cess_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: hsn_itc_eligible
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

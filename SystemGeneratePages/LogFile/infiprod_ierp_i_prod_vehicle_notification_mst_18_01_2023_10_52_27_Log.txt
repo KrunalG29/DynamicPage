@@ -1,0 +1,113 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_prod_vehicle_notification_mst
+
+Menu Name:Vehicle_Notification
+
+
+#Create Log Table: Operation successfully completed on 18/01/2023 10:52:26
+   Database: infilog_ierp
+   Table: i_prod_vehicle_notification_mst_log
+
+#Create Log Table Synonym: Operation successfully completed on 18/01/2023 10:52:26
+   Synonym: i_prod_vehicle_notification_mst_log
+
+#Create Trigger: Operation successfully completed on 18/01/2023 10:52:26
+   Trigger: trg_prod_vehicle_notification_mst
+
+#Create Procedure for Insert: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_selectby_id
+
+#Create Procedure for Select all: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_select_all
+
+#Create Procedure for select: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_select
+
+#Create Procedure for log select: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 18/01/2023 10:52:27
+   Stored Procedure: i_prod_vehicle_notification_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 18/01/2023 10:52:27
+   File: PROP_prod_vehicle_notification_mst
+
+#Create DB Function File: Operation successfully completed on 18/01/2023 10:52:27
+   File: db_prod_vehicle_notification_mst
+
+#Create Form Page File: Operation successfully completed on 18/01/2023 10:52:27
+   File: form_prod_vehicle_notification.aspx
+
+#Create Listing Page File: Operation successfully completed on 18/01/2023 10:52:27
+   File: list_prod_vehicle_notification.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: vnm_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Vehicle Date
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: vnm_no
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Slip No
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: vnm_vehicle_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: ID
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: vnm_vehicle_no
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Vehicle NO
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: vnm_discription
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Description
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

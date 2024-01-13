@@ -1,0 +1,135 @@
+#############################Log##############################
+
+Project:CAST
+
+Table:i_sale_sales_invoice_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Operation successfully completed on 22/10/2022 10:42:13
+   Stored Procedure: i_sale_sales_invoice_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 22/10/2022 10:42:13
+   Stored Procedure: i_sale_sales_invoice_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 22/10/2022 10:42:13
+   Stored Procedure: i_sale_sales_invoice_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 22/10/2022 10:42:13
+   Stored Procedure: i_sale_sales_invoice_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 22/10/2022 10:42:13
+   Stored Procedure: i_sale_sales_invoice_mst_select
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 22/10/2022 10:42:13
+   File: PROP_sale_sales_invoice_mst
+
+#Create DB Function File: Operation successfully completed on 22/10/2022 10:42:13
+   File: db_sale_sales_invoice_mst
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File: Operation successfully completed on 22/10/2022 10:42:13
+   File: list_sale_sales_invoice.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: sim_no
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: sim_date
+       Field Data Type: DateTime (3)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: sim_cust_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: sim_cust_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: sim_contect_no
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: sim_total_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: sim_adj_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: sim_seq_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

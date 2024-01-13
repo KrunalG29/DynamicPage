@@ -1,0 +1,96 @@
+#############################Log##############################
+
+Project:URP
+
+Table:i_ctlg_item_type_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File: Operation successfully completed on 29/07/2023 04:02:17
+   File: form_ctlg_item_type.aspx
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: itm_parent_type
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Parent Type
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: itm_name
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Type Name
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: itm_code
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Type Code
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: itm_is_system
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: itm_key
+       Field Data Type: String (50)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

@@ -1,0 +1,160 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_mobile_app_registration_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 26/09/2022 03:21:31
+   File: PROP_mobile_app_registration_mst
+
+#Create DB Function File: Operation successfully completed on 26/09/2022 03:21:31
+   File: db_mobile_app_registration_mst
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File: Operation successfully completed on 26/09/2022 03:21:31
+   File: list_mobile_app_registration.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: mapr_android_id
+       Field Data Type: String (50)
+       User Entry Not Required?: YES
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: mapr_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: mapr_mobile_no
+       Field Data Type: String (15)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: mapr_OTP
+       Field Data Type: String (5)
+       User Entry Not Required?: YES
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: mapr_user_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: mapr_user_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: YES
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: mapr_approved_by
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: mapr_approved_dnt
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: mapr_approved_status
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: mapr_app_version
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: maptr_source_id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

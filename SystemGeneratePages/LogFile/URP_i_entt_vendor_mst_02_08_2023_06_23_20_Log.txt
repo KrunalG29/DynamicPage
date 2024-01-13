@@ -1,0 +1,856 @@
+#############################Log##############################
+
+Project:URP
+
+Table:i_entt_vendor_mst
+
+Menu Name:vendor
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File: Operation successfully completed on 02/08/2023 06:23:20
+   File: list_entt_vendor.aspx
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: ven_code
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: ven_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: ven_org_type
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: ven_group
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: ven_type
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: ven_parent_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 10
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: ven_contact_person
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 12
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: ven_com_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 14
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: ven_add1
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 16
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: ven_add2
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 18
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: ven_add3
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 20
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: ven_phone_no
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 22
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: ven_mobile_no
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 24
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: ven_email_add
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 26
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: ven_cit_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 28
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: ven_sta_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 30
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: ven_pincode
+       Field Data Type: String (15)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 32
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: ven_country_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 34
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 19
+       Field Name: ven_excise_range
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 36
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 20
+       Field Name: ven_excise_division
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 38
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 21
+       Field Name: ven_service_tax_range
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 40
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 22
+       Field Name: ven_service_tax_division
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 42
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 23
+       Field Name: ven_is_tds_exemption
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 44
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 24
+       Field Name: ven_brm_id
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 46
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 25
+       Field Name: ven_is_VAT_payment_allowed
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 48
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 26
+       Field Name: ven_legal_status_proof
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 50
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 27
+       Field Name: ven_original_legal_status_proof
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 52
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 28
+       Field Name: ven_address_proof
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 54
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 29
+       Field Name: ven_original_address_proof
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 56
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 30
+       Field Name: ven_not_provide_doc
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 58
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 31
+       Field Name: ven_gstin_info_flag
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 60
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 32
+       Field Name: ven_gstn_no
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 62
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 33
+       Field Name: ven_gstn_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 64
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 34
+       Field Name: ven_arn_no
+       Field Data Type: String (15)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 66
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 35
+       Field Name: ven_gstin_status
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 68
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 36
+       Field Name: ven_gstin_reg_email
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 70
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 37
+       Field Name: ven_gstin_reg_mobile
+       Field Data Type: String (15)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 72
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 38
+       Field Name: ven_gstin_contact_person
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 74
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 39
+       Field Name: ven_gstin_slab
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 76
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 40
+       Field Name: ven_gstin_file
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 78
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 41
+       Field Name: ven_gstn_original_file
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 80
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 42
+       Field Name: ven_composition_scheme_flag
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 82
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 43
+       Field Name: ven_is_unregister
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 84
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 44
+       Field Name: ven_itc_noc_file
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 86
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 45
+       Field Name: ven_itc_noc_original_file
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 88
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 46
+       Field Name: ven_payment_days
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 90
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 47
+       Field Name: ven_allowed_credit
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 92
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 48
+       Field Name: ven_pt_max_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 94
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 49
+       Field Name: ven_credit_start
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 96
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 50
+       Field Name: ven_overdue_interest_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 98
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 51
+       Field Name: ven_import_Info
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 100
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 52
+       Field Name: ven_weekly_off
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 102
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 53
+       Field Name: ven_shift_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 104
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 54
+       Field Name: ven_process_ids
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 106
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 55
+       Field Name: ven_key
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 108
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 56
+       Field Name: ven_evm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 110
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 57
+       Field Name: ven_div_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 112
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 58
+       Field Name: ven_div_ids
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 114
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 59
+       Field Name: ven_filing_status
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 116
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 60
+       Field Name: ven_approval_status
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 118
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 61
+       Field Name: ven_approve_dt
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 120
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 62
+       Field Name: ven_approve_by
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 122
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 63
+       Field Name: ven_hold_reject_reason
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 124
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 64
+       Field Name: ven_base_currency
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 126
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 65
+       Field Name: ven_tcs_applicable
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 128
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 66
+       Field Name: ven_tcs_ref_type
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 130
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 67
+       Field Name: ven_deduction
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 132
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 68
+       Field Name: ven_dlvr_charge
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 134
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 69
+       Field Name: ven_dispatch_mode
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 136
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 70
+       Field Name: ven_frieght
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 138
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 71
+       Field Name: ven_pack_chrg_incld
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 140
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 72
+       Field Name: ven_insurance
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 142
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 73
+       Field Name: ven_packing
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 144
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 74
+       Field Name: ven_payroll
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 146
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 75
+       Field Name: ven_purchase_planing
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 148
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 76
+       Field Name: ven_is_auto_mail_send
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 150
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 77
+       Field Name: ven_payment_term
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 152
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 78
+       Field Name: ven_tax
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 154
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 79
+       Field Name: ven_milk_cal_method_type
+       Field Data Type: Int32 (1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 156
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 80
+       Field Name: ven_tds_applicable_continuously
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 158
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 81
+       Field Name: ven_distance
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 160
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

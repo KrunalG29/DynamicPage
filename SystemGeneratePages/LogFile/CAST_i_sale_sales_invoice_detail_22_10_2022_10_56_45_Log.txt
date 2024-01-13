@@ -1,0 +1,155 @@
+#############################Log##############################
+
+Project:CAST
+
+Table:i_sale_sales_invoice_detail
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Operation successfully completed on 22/10/2022 10:56:45
+   Stored Procedure: i_sale_sales_invoice_detail_insert
+
+#Create Procedure for Delete: Operation successfully completed on 22/10/2022 10:56:45
+   Stored Procedure: i_sale_sales_invoice_detail_delete
+
+#Create Procedure for Update: Operation successfully completed on 22/10/2022 10:56:45
+   Stored Procedure: i_sale_sales_invoice_detail_update
+
+#Create Procedure for select by id: Operation successfully completed on 22/10/2022 10:56:45
+   Stored Procedure: i_sale_sales_invoice_detail_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 22/10/2022 10:56:45
+   Stored Procedure: i_sale_sales_invoice_detail_select
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 22/10/2022 10:56:45
+   File: PROP_sale_sales_invoice_detail
+
+#Create DB Function File: Operation successfully completed on 22/10/2022 10:56:45
+   File: db_sale_sales_invoice_detail
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File: Operation successfully completed on 22/10/2022 10:56:45
+   File: list_sale_sales_invoice.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: simd_som_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: simd_itm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: simd_itm_print_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: simd_basic_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: simd_itm_mrp
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: simd_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: simd_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: simd_rate
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: simd_total
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: final_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

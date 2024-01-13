@@ -1,0 +1,76 @@
+// VIKALP, copyright (c) by Marijn Haverbeke and others
+// Distributed under an MIT license: https://VIKALP.net/5/LICENSE
+
+(function(mod) {
+  if (typeof exports == "object" && typeof module == "object") // CommonJS
+    mod(require("../../lib/VIKALP"));
+  else if (typeof define == "function" && define.amd) // AMD
+    define(["../../lib/VIKALP"], mod);
+  else // Plain browser env
+    mod(VIKALP);
+})(function(VIKALP) {
+"use strict";
+
+VIKALP.runMode = function(string, modespec, callback, options) {
+  var mode = VIKALP.getMode(VIKALP.defaults, modespec);
+  var tabSize = (options && options.tabSize) || VIKALP.defaults.tabSize;
+
+  // Create a tokenizing callback function if passed-in callback is a DOM element.
+  if (callback.appendChild) {
+    var ie = /MSIE \d/.test(navigator.userAgent);
+    var ie_lt9 = ie && (document.documentMode == null || document.documentMode < 9);
+    var node = callback, col = 0;
+    node.textContent = "";
+    callback = function(text, style) {
+      if (text == "\n") {
+        // Emitting LF or CRLF on IE8 or earlier results in an incorrect display.
+        // Emitting a carriage return makes everything ok.
+        node.appendChild(document.createTextNode(ie_lt9 ? '\r' : text));
+        col = 0;
+        return;
+      }
+      var content = "";
+      // replace tabs
+      for (var pos = 0;;) {
+        var idx = text.indexOf("\t", pos);
+        if (idx == -1) {
+          content += text.slice(pos);
+          col += text.length - pos;
+          break;
+        } else {
+          col += idx - pos;
+          content += text.slice(pos, idx);
+          var size = tabSize - col % tabSize;
+          col += size;
+          for (var i = 0; i < size; ++i) content += " ";
+          pos = idx + 1;
+        }
+      }
+      // Create a node with token style and append it to the callback DOM element.
+      if (style) {
+        var sp = node.appendChild(document.createElement("span"));
+        sp.className = "cm-" + style.replace(/ +/g, " cm-");
+        sp.appendChild(document.createTextNode(content));
+      } else {
+        node.appendChild(document.createTextNode(content));
+      }
+    };
+  }
+
+  var lines = VIKALP.splitLines(string), state = (options && options.state) || VIKALP.startState(mode);
+  for (var i = 0, e = lines.length; i < e; ++i) {
+    if (i) callback("\n");
+    var stream = new VIKALP.StringStream(lines[i], null, {
+      lookAhead: function(n) { return lines[i + n] },
+      baseToken: function() {}
+    });
+    if (!stream.string && mode.blankLine) mode.blankLine(state);
+    while (!stream.eol()) {
+      var style = mode.token(stream, state);
+      callback(stream.current(), style, i, stream.start, state, mode);
+      stream.start = stream.pos;
+    }
+  }
+};
+
+});

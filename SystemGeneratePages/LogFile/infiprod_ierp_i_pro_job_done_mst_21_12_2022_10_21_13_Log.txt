@@ -1,0 +1,101 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_pro_job_done_mst
+
+Menu Name:Manage_job_done_mst
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 21/12/2022 10:21:13
+   File: PROP_pro_job_done_mst
+
+#Create DB Function File: Operation successfully completed on 21/12/2022 10:21:13
+   File: db_pro_job_done_mst
+
+#Create Form Page File: Operation successfully completed on 21/12/2022 10:21:13
+   File: form_pro_job_done_mst.aspx
+
+#Create Listing Page File: Operation successfully completed on 21/12/2022 10:21:13
+   File: list_pro_job_done_mst.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: jdm_name
+       Field Data Type: String (139)
+       User Entry Not Required?: NO
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: Job Done Name
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: jdm_code
+       Field Data Type: String (139)
+       User Entry Not Required?: NO
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: Job Done Code
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: jdm_price
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: Price
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: jdm_allow_qty
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Allow Qty
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: jdm_usem_ids
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Users
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

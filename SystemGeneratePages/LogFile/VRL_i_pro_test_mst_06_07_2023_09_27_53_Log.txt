@@ -1,0 +1,181 @@
+#############################Log##############################
+
+Project:VRL
+
+Table:i_pro_test_mst
+
+Menu Name:
+
+
+#Create Log Table: Error on 06/07/2023 09:27:53
+   Error: 
+
+#Create Log Table Synonym: Operation successfully completed on 06/07/2023 09:27:53
+   Synonym: i_pro_test_mst_log
+
+#Create Trigger: Operation successfully completed on 06/07/2023 09:27:53
+   Trigger: trg_pro_test_mst
+
+#Create Procedure for Insert: Operation successfully completed on 06/07/2023 09:27:53
+   Stored Procedure: i_pro_test_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 06/07/2023 09:27:53
+   Stored Procedure: i_pro_test_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 06/07/2023 09:27:53
+   Stored Procedure: i_pro_test_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 06/07/2023 09:27:53
+   Stored Procedure: i_pro_test_mst_selectby_id
+
+#Create Procedure for Select all: Operation successfully completed on 06/07/2023 09:27:53
+   Stored Procedure: i_pro_test_mst_select_all
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Operation successfully completed on 06/07/2023 09:27:53
+   Stored Procedure: i_pro_test_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 06/07/2023 09:27:53
+   Stored Procedure: i_pro_test_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 06/07/2023 09:27:53
+   File: PROP_pro_test_mst
+
+#Create DB Function File: Operation successfully completed on 06/07/2023 09:27:53
+   File: db_pro_test_mst
+
+#Create Form Page File: Operation successfully completed on 06/07/2023 09:27:53
+   File: form_pro_test.aspx
+
+#Create Listing Page File: Operation successfully completed on 06/07/2023 09:27:53
+   File: list_pro_test.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: csm_ref_type
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: csm_ref_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: csm_ref_detail_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: csm_itm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: csm_sr_no
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: csm_seq_no
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: csm_is_used
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: csm_is_stock_count
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: csm_ref_sub_type
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: csm_is_rework
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: csm_loc_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: csm_production_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

@@ -1,0 +1,72 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_inventory_kit_type_mst
+
+Menu Name:Manage_Kit_Type_Master
+
+
+#Create Log Table: Operation successfully completed on 23/11/2023 10:36:41
+   Database: infilog_ierp
+   Table: i_inventory_kit_type_mst_log
+
+#Create Log Table Synonym: Operation successfully completed on 23/11/2023 10:36:41
+   Synonym: i_inventory_kit_type_mst_log
+
+#Create Trigger: Operation successfully completed on 23/11/2023 10:36:41
+   Trigger: trg_inventory_kit_type_mst
+
+#Create Procedure for Insert: Operation successfully completed on 23/11/2023 10:36:41
+   Stored Procedure: i_inventory_kit_type_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 23/11/2023 10:36:41
+   Stored Procedure: i_inventory_kit_type_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 23/11/2023 10:36:41
+   Stored Procedure: i_inventory_kit_type_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 23/11/2023 10:36:41
+   Stored Procedure: i_inventory_kit_type_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 23/11/2023 10:36:41
+   Stored Procedure: i_inventory_kit_type_mst_select
+
+#Create Procedure for log select: Operation successfully completed on 23/11/2023 10:36:42
+   Stored Procedure: i_inventory_kit_type_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 23/11/2023 10:36:42
+   Stored Procedure: i_inventory_kit_type_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 23/11/2023 10:36:42
+   File: PROP_inventory_kit_type_mst
+
+#Create DB Function File: Operation successfully completed on 23/11/2023 10:36:42
+   File: db_inventory_kit_type_mst
+
+#Create Form Page File: Operation successfully completed on 23/11/2023 10:36:42
+   File: form_inventory_kit_type.aspx
+
+#Create Listing Page File: Operation successfully completed on 23/11/2023 10:36:42
+   File: list_inventory_kit_type.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: ktm_kit_type_name
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

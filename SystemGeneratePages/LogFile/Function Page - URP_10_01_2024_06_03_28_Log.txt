@@ -1,0 +1,31 @@
+#############################Log##############################
+
+Host IP:127.0.0.1
+
+Type:Function Page - URP
+
+Page Name:
+
+Function Type iERP:Select Type
+
+Function Name iERP:
+
+SP String iERP:ALTER PROCEDURE [dbo].[i_get_schedule_item_price_for_sales_order]
+@cus_id bigint,
+@unloading_point bigint,
+@warehouse_id bigint,
+@comp_id bigint
+
+Function Type URP:DataTable
+
+Function Name URP:i_get_schedule_item_price_for_sales_order
+
+SP String URP:ALTER PROCEDURE [dbo].[i_get_schedule_item_price_for_sales_order]
+@cus_id bigint,
+@unloading_point bigint,
+@warehouse_id bigint,
+@comp_id bigint
+
+Excel SP String:
+
+##############################################################

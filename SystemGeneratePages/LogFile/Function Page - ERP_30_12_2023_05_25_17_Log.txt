@@ -1,0 +1,23 @@
+#############################Log##############################
+
+Host IP:127.0.0.1
+
+Type:Function Page - ERP
+
+Page Name:
+
+Function Type iERP:Return Object
+
+Function Name iERP:Get_sale_sales_order_mst
+
+SP String iERP:
+
+Function Type URP:Select Type
+
+Function Name URP:
+
+SP String URP:
+
+Excel SP String:
+
+##############################################################

@@ -1,0 +1,148 @@
+#############################Log##############################
+
+Project:NEP - krunalg
+
+Table:i_stor_material_returned_mst
+
+Menu Name:
+
+
+#Create Log Table: Error on 08/08/2023 05:24:43
+   Error: There is already an object named 'i_stor_material_returned_mst_log' in the database.
+
+#Create Log Table Synonym: Error on 08/08/2023 05:24:43
+   Error: There is already an object named 'i_stor_material_returned_mst_log' in the database.
+
+#Create Trigger: Error on 08/08/2023 05:24:43
+   Error: There is already an object named 'trg_i_stor_material_returned_mst' in the database.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: mrm_ist_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: mrm_mcm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: mrm_mat_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: mrm_slm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: mrm_scbm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: mrm_scbd_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 10
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: mrm_returned_stock
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 12
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: mrm_status
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 14
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: mrm_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 16
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: mrm_remarks
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 18
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

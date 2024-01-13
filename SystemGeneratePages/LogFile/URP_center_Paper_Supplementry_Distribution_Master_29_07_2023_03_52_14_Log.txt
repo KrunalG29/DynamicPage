@@ -1,0 +1,238 @@
+#############################Log##############################
+
+Project:URP
+
+Table:center_Paper_Supplementry_Distribution_Master
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Not Selected.
+
+#Create Trigger: Not Selected.
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 29/07/2023 03:52:14
+   File: PROP_center_Paper_Supplementry_Distribution_Master
+
+#Create DB Function File: Operation successfully completed on 29/07/2023 03:52:14
+   File: BAL_center_Paper_Supplementry_Distribution_Master
+
+#Create Form Page File: Operation successfully completed on 29/07/2023 03:52:14
+   File: form_center_Paper_Supplementry_Distribution_Master.aspx
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: psdm_id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: psdm_from_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: psdm_to_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: psdm_term_id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: psdm_answer_key_type
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: psdm_center_id
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 10
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: psdm_no_of_student
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 12
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: psdm_extra_answersheet
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 14
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: psdm_Is_Status
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 16
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: psdm_Is_Delete
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 18
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: psdm_Created_By
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 20
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: psdm_Created_Date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 22
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: psdm_Created_Ip
+       Field Data Type: String (80)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 24
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: psdm_Modify_By
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 26
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: psdm_Modify_Date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 28
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: psdm_Modify_Ip
+       Field Data Type: String (80)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 30
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: psdm_Deleted_By
+       Field Data Type: Int32 (4)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 32
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: psdm_Deleted_Date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 34
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 19
+       Field Name: psdm_Deleted_Ip
+       Field Data Type: String (80)
+       User Entry Not Required?: YES
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 36
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

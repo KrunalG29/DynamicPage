@@ -1,0 +1,111 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_pro_jobwork_employee_payment_mst
+
+Menu Name:Manage_emp_payment_mst
+
+
+#Create Log Table: Error on 27/12/2022 09:54:08
+   Error: There is already an object named 'i_pro_jobwork_employee_payment_mst_log' in the database.
+
+#Create Log Table Synonym: Operation successfully completed on 27/12/2022 09:54:08
+   Synonym: i_pro_jobwork_employee_payment_mst_log
+
+#Create Trigger: Error on 27/12/2022 09:54:08
+   Error: An explicit value for the identity column in table 'i_pro_jobwork_employee_payment_mst_log' can only be specified when a column list is used and IDENTITY_INSERT is ON.
+
+#Create Procedure for Insert: Operation successfully completed on 27/12/2022 09:54:08
+   Stored Procedure: i_pro_jobwork_employee_payment_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 27/12/2022 09:54:08
+   Stored Procedure: i_pro_jobwork_employee_payment_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 27/12/2022 09:54:08
+   Stored Procedure: i_pro_jobwork_employee_payment_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 27/12/2022 09:54:08
+   Stored Procedure: i_pro_jobwork_employee_payment_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 27/12/2022 09:54:08
+   Stored Procedure: i_pro_jobwork_employee_payment_mst_select
+
+#Create Procedure for log select: Error on 27/12/2022 09:54:08
+   Error: Invalid column name 'operation_type'.
+
+#Create Procedure for deleted log select: Error on 27/12/2022 09:54:08
+   Error: Invalid column name 'operation_type'.
+
+#Create PROPERTY File: Operation successfully completed on 27/12/2022 09:54:08
+   File: PROP_pro_jobwork_employee_payment_mst
+
+#Create DB Function File: Operation successfully completed on 27/12/2022 09:54:08
+   File: db_pro_jobwork_employee_payment_mst
+
+#Create Form Page File: Operation successfully completed on 27/12/2022 09:54:08
+   File: form_pro_jobwork_employee_payment.aspx
+
+#Create Listing Page File: Operation successfully completed on 27/12/2022 09:54:08
+   File: list_pro_jobwork_employee_payment.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: jwepm_pay_type
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Pay Type
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: jwepm_date
+       Field Data Type: DateTime (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Date
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: jwepm_emp_name
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Employee Name
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: YES (FUNCTION INFO.: Get_Service_Engg_ByLikeName_with_Designation)
+
+Field #: 4
+       Field Name: jwepm_pay_amount
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Pay Amount
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: jwepm_remark
+       Field Data Type: String (500)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Remark
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

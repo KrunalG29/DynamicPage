@@ -1,0 +1,389 @@
+#############################Log##############################
+
+Project:NEP - krunalg
+
+Table:i_stor_stock_transfer_detail
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 09/08/2023 11:03:39
+   Database: CMS_EXAM_NEW_LOG
+   Table: i_stor_stock_transfer_detail_log
+
+#Create Log Table Synonym: Operation successfully completed on 09/08/2023 11:03:39
+   Synonym: i_stor_stock_transfer_detail_log
+
+#Create Trigger: Operation successfully completed on 09/08/2023 11:03:39
+   Trigger: trg_stor_stock_transfer_detail
+
+#Create Procedure for Insert: Not Selected.
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for select by id: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create PROPERTY File: Not Selected.
+
+#Create DB Function File: Not Selected.
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: std_stm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 0
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: std_itm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 2
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: std_itm_print_name
+       Field Data Type: String (300)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 4
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: std_qty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 6
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: std_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 8
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: std_item_mrp
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 10
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: std_price
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 12
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 8
+       Field Name: std_total
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 14
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 9
+       Field Name: std_HSNcode
+       Field Data Type: String (50)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 16
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 10
+       Field Name: std_cgst_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 18
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 11
+       Field Name: std_cgst_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 20
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 12
+       Field Name: std_sgst_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 22
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 13
+       Field Name: std_sgst_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 24
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 14
+       Field Name: std_igst_per
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 26
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 15
+       Field Name: std_igst_amt
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 28
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 16
+       Field Name: std_final_total
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 30
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 17
+       Field Name: std_rtqty
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 32
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 18
+       Field Name: std_rt_uom_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 34
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 19
+       Field Name: chk_uom_con_req
+       Field Data Type: String (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 36
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 20
+       Field Name: std_from_loc_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 38
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 21
+       Field Name: std_from_loc_cup_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 40
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 22
+       Field Name: std_from_loc_cell_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 42
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 23
+       Field Name: std_to_loc_cell_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 44
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 24
+       Field Name: std_to_loc_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 46
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 25
+       Field Name: std_to_loc_cup_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 48
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 26
+       Field Name: std_unique_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 50
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+Field #: 27
+       Field Name: std_remarks
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 52
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 28
+       Field Name: std_fat
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 54
+       Entry Control: TextBox(DateTime)
+       Is Function Exists?: NO
+
+Field #: 29
+       Field Name: std_snf
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 56
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+Field #: 30
+       Field Name: std_fat_kg
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 58
+       Entry Control: DropDown
+       Is Function Exists?: NO
+
+Field #: 31
+       Field Name: std_snf_kg
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 60
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 32
+       Field Name: std_in_transit_loc_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 62
+       Entry Control: Radio
+       Is Function Exists?: NO
+
+Field #: 33
+       Field Name: std_in_transit_cup_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 64
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 34
+       Field Name: std_in_transit_cell_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: TextBox 66
+       Entry Control: TextBox(Multiline)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

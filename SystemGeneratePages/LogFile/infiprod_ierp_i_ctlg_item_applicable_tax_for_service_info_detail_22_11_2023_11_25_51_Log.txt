@@ -1,0 +1,125 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_ctlg_item_applicable_tax_for_service_info_detail
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 22/11/2023 11:25:51
+   Database: infilog_ierp
+   Table: i_ctlg_item_applicable_tax_for_service_info_detail_log
+
+#Create Log Table Synonym: Operation successfully completed on 22/11/2023 11:25:51
+   Synonym: i_ctlg_item_applicable_tax_for_service_info_detail_log
+
+#Create Trigger: Operation successfully completed on 22/11/2023 11:25:51
+   Trigger: trg_ctlg_item_applicable_tax_for_service_info_detail
+
+#Create Procedure for Insert: Operation successfully completed on 22/11/2023 11:25:51
+   Stored Procedure: i_ctlg_item_applicable_tax_for_service_info_detail_insert
+
+#Create Procedure for Delete: Not Selected.
+
+#Create Procedure for Update: Not Selected.
+
+#Create Procedure for select by id: Operation successfully completed on 22/11/2023 11:25:51
+   Stored Procedure: i_ctlg_item_applicable_tax_for_service_info_detail_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Not Selected.
+
+#Create Procedure for log select: Not Selected.
+
+#Create Procedure for deleted log select: Not Selected.
+
+#Create PROPERTY File: Operation successfully completed on 22/11/2023 11:25:51
+   File: PROP_ctlg_item_applicable_tax_for_service_info_detail
+
+#Create DB Function File: Operation successfully completed on 22/11/2023 11:25:51
+   File: db_ctlg_item_applicable_tax_for_service_info_detail
+
+#Create Form Page File : Not Selected.
+
+#Create Listing Page File : Not Selected.
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: itsid_itm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: itsid_cat_code
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: itsid_cat_description
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: itsid_tax_collection
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: itsid_other_receipts
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 6
+       Field Name: itsid_deduct_refunds
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+Field #: 7
+       Field Name: itsid_penalties
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: Select Control Type
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

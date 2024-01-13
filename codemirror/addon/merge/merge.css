@@ -1,0 +1,119 @@
+.VIKALP-merge {
+  position: relative;
+  border: 1px solid #ddd;
+  white-space: pre;
+}
+
+.VIKALP-merge, .VIKALP-merge .VIKALP {
+  height: 350px;
+}
+
+.VIKALP-merge-2pane .VIKALP-merge-pane { width: 47%; }
+.VIKALP-merge-2pane .VIKALP-merge-gap { width: 6%; }
+.VIKALP-merge-3pane .VIKALP-merge-pane { width: 31%; }
+.VIKALP-merge-3pane .VIKALP-merge-gap { width: 3.5%; }
+
+.VIKALP-merge-pane {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.VIKALP-merge-pane-rightmost {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+}
+
+.VIKALP-merge-gap {
+  z-index: 2;
+  display: inline-block;
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: relative;
+  background: #f8f8f8;
+}
+
+.VIKALP-merge-scrolllock-wrap {
+  position: absolute;
+  bottom: 0; left: 50%;
+}
+.VIKALP-merge-scrolllock {
+  position: relative;
+  left: -50%;
+  cursor: pointer;
+  color: #555;
+  line-height: 1;
+}
+.VIKALP-merge-scrolllock:after {
+  content: "\21db\00a0\00a0\21da";
+}
+.VIKALP-merge-scrolllock.VIKALP-merge-scrolllock-enabled:after {
+  content: "\21db\21da";
+}
+
+.VIKALP-merge-copybuttons-left, .VIKALP-merge-copybuttons-right {
+  position: absolute;
+  left: 0; top: 0;
+  right: 0; bottom: 0;
+  line-height: 1;
+}
+
+.VIKALP-merge-copy {
+  position: absolute;
+  cursor: pointer;
+  color: #44c;
+  z-index: 3;
+}
+
+.VIKALP-merge-copy-reverse {
+  position: absolute;
+  cursor: pointer;
+  color: #44c;
+}
+
+.VIKALP-merge-copybuttons-left .VIKALP-merge-copy { left: 2px; }
+.VIKALP-merge-copybuttons-right .VIKALP-merge-copy { right: 2px; }
+
+.VIKALP-merge-r-inserted, .VIKALP-merge-l-inserted {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAGUlEQVQI12MwuCXy3+CWyH8GBgYGJgYkAABZbAQ9ELXurwAAAABJRU5ErkJggg==);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+}
+
+.VIKALP-merge-r-deleted, .VIKALP-merge-l-deleted {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAGUlEQVQI12M4Kyb2/6yY2H8GBgYGJgYkAABURgPz6Ks7wQAAAABJRU5ErkJggg==);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+}
+
+.VIKALP-merge-r-chunk { background: #ffffe0; }
+.VIKALP-merge-r-chunk-start { border-top: 1px solid #ee8; }
+.VIKALP-merge-r-chunk-end { border-bottom: 1px solid #ee8; }
+.VIKALP-merge-r-connect { fill: #ffffe0; stroke: #ee8; stroke-width: 1px; }
+
+.VIKALP-merge-l-chunk { background: #eef; }
+.VIKALP-merge-l-chunk-start { border-top: 1px solid #88e; }
+.VIKALP-merge-l-chunk-end { border-bottom: 1px solid #88e; }
+.VIKALP-merge-l-connect { fill: #eef; stroke: #88e; stroke-width: 1px; }
+
+.VIKALP-merge-l-chunk.VIKALP-merge-r-chunk { background: #dfd; }
+.VIKALP-merge-l-chunk-start.VIKALP-merge-r-chunk-start { border-top: 1px solid #4e4; }
+.VIKALP-merge-l-chunk-end.VIKALP-merge-r-chunk-end { border-bottom: 1px solid #4e4; }
+
+.VIKALP-merge-collapsed-widget:before {
+  content: "(...)";
+}
+.VIKALP-merge-collapsed-widget {
+  cursor: pointer;
+  color: #88b;
+  background: #eef;
+  border: 1px solid #ddf;
+  font-size: 90%;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+.VIKALP-merge-collapsed-line .VIKALP-gutter-elt { display: none; }

@@ -1,0 +1,110 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_pro_job_done_mst
+
+Menu Name:
+
+
+#Create Log Table: Not Selected.
+
+#Create Log Table Synonym: Operation successfully completed on 21/12/2022 10:08:09
+   Synonym: i_pro_job_done_mst_log
+
+#Create Trigger: Error on 21/12/2022 10:08:09
+   Error: Column name or number of supplied values does not match table definition.
+
+#Create Procedure for Insert: Operation successfully completed on 21/12/2022 10:08:10
+   Stored Procedure: i_pro_job_done_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 21/12/2022 10:08:10
+   Stored Procedure: i_pro_job_done_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 21/12/2022 10:08:10
+   Stored Procedure: i_pro_job_done_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 21/12/2022 10:08:10
+   Stored Procedure: i_pro_job_done_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 21/12/2022 10:08:10
+   Stored Procedure: i_pro_job_done_mst_select
+
+#Create Procedure for log select: Error on 21/12/2022 10:08:10
+   Error: Invalid column name 'operation_type'.
+
+#Create Procedure for deleted log select: Error on 21/12/2022 10:08:10
+   Error: Invalid column name 'operation_type'.
+
+#Create PROPERTY File: Operation successfully completed on 21/12/2022 10:08:10
+   File: PROP_pro_job_done_mst
+
+#Create DB Function File: Operation successfully completed on 21/12/2022 10:08:10
+   File: db_pro_job_done_mst
+
+#Create Form Page File: Operation successfully completed on 21/12/2022 10:08:10
+   File: form_pro_job_done.aspx
+
+#Create Listing Page File: Operation successfully completed on 21/12/2022 10:08:10
+   File: list_pro_job_done.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: jdm_name
+       Field Data Type: String (139)
+       User Entry Not Required?: NO
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: Job Done Name
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: jdm_code
+       Field Data Type: String (139)
+       User Entry Not Required?: NO
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: Job Done Code
+       Entry Control: TextBox(String)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: jdm_price
+       Field Data Type: Double (9)
+       User Entry Not Required?: NO
+       is Compulsory?: YES
+       Is Enum?: NO
+       Label: Price
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 4
+       Field Name: jdm_allow_qty
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Allow Qty
+       Entry Control: CheckBox
+       Is Function Exists?: NO
+
+Field #: 5
+       Field Name: jdm_usem_ids
+       Field Data Type: String (-1)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: Users
+       Entry Control: TextBox(AutoSuggest)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################

@@ -1,0 +1,92 @@
+#############################Log##############################
+
+Project:infiprod_ierp
+
+Table:i_pro_job_card_process_done_mst
+
+Menu Name:
+
+
+#Create Log Table: Operation successfully completed on 14/11/2022 02:24:17
+   Database: infilog_ierp
+   Table: i_pro_job_card_process_done_mst_log
+
+#Create Log Table Synonym: Operation successfully completed on 14/11/2022 02:24:17
+   Synonym: i_pro_job_card_process_done_mst_log
+
+#Create Trigger: Operation successfully completed on 14/11/2022 02:24:17
+   Trigger: trg_pro_job_card_process_done_mst
+
+#Create Procedure for Insert: Operation successfully completed on 14/11/2022 02:24:17
+   Stored Procedure: i_pro_job_card_process_done_mst_insert
+
+#Create Procedure for Delete: Operation successfully completed on 14/11/2022 02:24:17
+   Stored Procedure: i_pro_job_card_process_done_mst_delete
+
+#Create Procedure for Update: Operation successfully completed on 14/11/2022 02:24:17
+   Stored Procedure: i_pro_job_card_process_done_mst_update
+
+#Create Procedure for select by id: Operation successfully completed on 14/11/2022 02:24:17
+   Stored Procedure: i_pro_job_card_process_done_mst_selectby_id
+
+#Create Procedure for Select all: Not Selected.
+
+#Create Procedure for select: Operation successfully completed on 14/11/2022 02:24:17
+   Stored Procedure: i_pro_job_card_process_done_mst_select
+
+#Create Procedure for log select: Operation successfully completed on 14/11/2022 02:24:17
+   Stored Procedure: i_pro_job_card_process_done_mst_log_select
+
+#Create Procedure for deleted log select: Operation successfully completed on 14/11/2022 02:24:18
+   Stored Procedure: i_pro_job_card_process_done_mst_del_log_select
+
+#Create PROPERTY File: Operation successfully completed on 14/11/2022 02:24:18
+   File: PROP_pro_job_card_process_done_mst
+
+#Create DB Function File: Operation successfully completed on 14/11/2022 02:24:18
+   File: db_pro_job_card_process_done_mst
+
+#Create Form Page File: Operation successfully completed on 14/11/2022 02:24:18
+   File: form_pro_job_card_process_done.aspx
+
+#Create Listing Page File: Operation successfully completed on 14/11/2022 02:24:18
+   File: list_pro_job_card_process_done.aspx
+
+#Create Web Method Function File: Not Selected.
+
+***********************Field Log*****************************
+
+
+Field #: 1
+       Field Name: jcdm_ojm_id
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 2
+       Field Name: jcdm_is_done
+       Field Data Type: Int32 (8)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+Field #: 3
+       Field Name: jcdm_remarks
+       Field Data Type: String (100)
+       User Entry Not Required?: NO
+       is Compulsory?: NO
+       Is Enum?: NO
+       Label: 
+       Entry Control: TextBox(Numeric)
+       Is Function Exists?: NO
+
+**************************************************************
+
+##############################################################
