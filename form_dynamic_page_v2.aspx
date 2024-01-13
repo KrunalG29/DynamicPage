@@ -23,6 +23,8 @@
                 }
         </style>
         <!-- MAIN CONTENT -->
+        <!-- MAIN CONTENT -->
+        <!-- MAIN CONTENT -->
         <div id="content">
             <div class="row">
             </div>
